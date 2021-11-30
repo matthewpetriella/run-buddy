@@ -5,7 +5,6 @@
   }
   
   body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -43,6 +42,7 @@
     font-size: 22px;
   }
   
+  /* apply styles to <footer> */
   footer {
     background: #fce138;
     width: 100%;
@@ -78,7 +78,6 @@
     background-position: center;
     position: relative;
   }
-  /* Hero Style End */
   
   .hero-form {
     border: 3px solid #024e76;
@@ -120,7 +119,8 @@
     padding: 10px 20px;
     font-size: 16px;
   }
-  
+  /* end hero styles */
+
   .intro {
     text-align: center;
   }
@@ -179,6 +179,7 @@
     border-color: #39a6b2;
   }
   
+  /* trainers style start */
   .trainers {
     text-align: center;
   }
@@ -266,6 +267,5 @@
   .contact-info a {
     color: #fce138;
   }
-  
   /* REACH OUT STYLES END */
   
