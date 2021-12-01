@@ -15,7 +15,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-
 /* HEADER / NAV BAR STYLES START */
 
 header {
@@ -75,9 +74,8 @@ header nav ul li a:hover {
 
 /* HEADER / NAVBAR STYLES END */
 
-
-
 /* FOOTER STYLES START */
+
 footer {
   background: var(--primary-color);
   padding: 40px 35px;
@@ -101,14 +99,17 @@ footer div {
 footer a {
   color: var(--secondary-color);
 }
+
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
+
 section {
   padding: 60px;
 }
 
 /* HERO STYLES START */
+
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
@@ -246,10 +247,11 @@ section {
   top: 1px;
   transform: rotate(-58deg);
 }
+
 /* HERO STYLES END */
 
-
 /* SECTION TITLE STYLES START */
+
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
@@ -267,6 +269,7 @@ section {
 .secondary-border {
   border-color: var(--tertiary-color);
 }
+
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
@@ -279,10 +282,12 @@ section {
   font-size: 20px;
   text-align: center;
 }
+
 /* WHAT YOU DO STYLES END */
 
 
 /* WHAT YOU DO STYLES START */
+
 .steps { 
   background: var(--primary-color);
 }
@@ -341,6 +346,7 @@ section {
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
+
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -378,9 +384,11 @@ section {
 .trainer-bio p {
   font-size: 17px;
 }
+
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
+
 .contact {
   background: var(--secondary-color);
 }
@@ -462,6 +470,7 @@ section {
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
+
 .text-left {
   text-align: left;
 }
@@ -475,6 +484,7 @@ section {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -531,6 +541,7 @@ section {
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
+
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
@@ -560,6 +571,7 @@ section {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
 @media screen and (max-width: 575px) {
   .hero-form button {
     width: 100%;
